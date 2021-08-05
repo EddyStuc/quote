@@ -3,8 +3,8 @@ import './App.scss';
 
 function App() {
 
-const [quote, setQuote] = useState("Hi")
-const [author, setAuthor] = useState("Ed")
+const [quote, setQuote] = useState("")
+const [author, setAuthor] = useState("")
 
 useEffect(() => {
     fetch("http://api.quotable.io/random")
